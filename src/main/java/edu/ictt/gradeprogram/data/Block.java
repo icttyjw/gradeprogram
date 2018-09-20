@@ -45,6 +45,16 @@ public class Block {
 		this.recordcount = recordcount;
 	}
 	
-	
+	@Override
+    public String toString() {
+        return "Block{" +
+                "schoolId=" + lasthash +
+                ", departmentId=" + merkleroot +
+                ", courseId=" + diffity +
+                ",studentId=" + culdiffity +
+                ",grade=" + time +
+                ",=" + recordcount +
+                '}';
+	}
 
 }
